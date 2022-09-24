@@ -1,3 +1,6 @@
+body {
+	background-color: gray;
+}
 .container {
 	margin: 0 20px;
 	padding: 0 20px;
@@ -6,10 +9,17 @@
 	display: flex;
 }
 .demo-slide {
-	width: 250px;
+	width: 400px;
 	margin: 0px 20px;
 }
 .demo-slide img {
 	width: 100%;
-	height: 150px;
+	height: 350px;
+}
+.vid {
+	margin: 0 20px;
+	/*height: 450px;*/
+}
+.info {
+	display: none;
 }
